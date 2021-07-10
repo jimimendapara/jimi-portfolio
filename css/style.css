@@ -283,3 +283,16 @@ h1,h2,h3,h4,h5,h6,p{
     transform: translateY(-15px);
   }
 }
+
+@media (max-width: 430px) {
+ .display-3{
+  font-size: 3.5rem !important;
+  font-weight: 300;
+  line-height: 1.2;
+ }
+.display-1{
+  font-size: 5.5rem !important;
+  font-weight: 300;
+  line-height: 1.2;
+ }
+}
